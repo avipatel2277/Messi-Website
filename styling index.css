@@ -1,0 +1,60 @@
+/*This helps style the navbar*/
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  position: fixed; /* Make it stick/fixed */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgb(9, 48, 9);
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+      float: none;
+      display: block;
+  }
+}
+
+/*This helps style the footer*/
+.footer {
+  bottom: 0;
+  width: 1637px;
+  height: 190px;
+  text-align: left;
+  background-color: #555;
+  color: rgb(247, 244, 244);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+}
+
+.imgMAIN {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.content {
+  padding: 20px;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+iframe {
+  border: 5px solid #555;
+}
